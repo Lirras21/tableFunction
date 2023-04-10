@@ -78,3 +78,17 @@ const usersData = {
       }
   ];
   
+  function arrayToTable(users) {
+     let result = '|ID|\t\t\t|FN|\t\t\t\t|LN|\t\t\t\t|A|\t\t\t\t|G|\n'
+     for (let i = 0; i < users.length; i++){
+       if (users[i].firstName.length >= 8) {
+          result += ` ${users[i].id}\t\t\t\t${users[i].firstName}\t\t\t${users[i].lastName}\t\t\t\t${users[i].age}\t\t\t\t${users[i].gender}\n`;
+       } else if (users[i].lastName.length > 6) {
+          result += ` ${users[i].id}\t\t\t\t${users[i].firstName}\t\t\t\t${users[i].lastName}\t\t\t${users[i].age}\t\t\t\t${users[i].gender}\n`;
+       } else {
+          result += ` ${users[i].id}\t\t\t\t${users[i].firstName}\t\t\t\t${users[i].lastName}\t\t\t\t${users[i].age}\t\t\t\t${users[i].gender}\n`;
+       }
+     }
+     return result;
+    }
+    console.log(arrayToTable(users));
