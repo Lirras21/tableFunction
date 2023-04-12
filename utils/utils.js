@@ -2,7 +2,7 @@ import { users } from "../mockData/mockUsers.js";
 import { usersData } from "../types/userDetails.js";
 
 
-function convertArrayToTable(users) {
+export function convertArrayToTable() {
   let result = `|${usersData.id}|\t\t\t|${usersData.firstName}|\t\t\t\t|${usersData.lastName}|\t\t\t\t|${usersData.age}|\t\t\t\t|${usersData.gender}|\n`;
    for (let i = 0; i < users.length; i++) {
      let id = `${users[i].id}`,
@@ -14,4 +14,3 @@ function convertArrayToTable(users) {
    }
    return result;
 }
-console.log(convertArrayToTable(users));

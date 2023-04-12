@@ -70,3 +70,8 @@ export const users = [
         gender: 'Female'
     }
 ];
+
+import { convertArrayToTable } from "../utils/utils.js";
+import { usersData } from "../types/userDetails.js";
+const tableResult = convertArrayToTable(users);
+console.log(tableResult);
