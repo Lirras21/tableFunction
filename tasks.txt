@@ -1,0 +1,7 @@
+1. Function declaration vs function expression
+2. Function vs Class
+3. Create arrray of mock data using functions and class syntax
+4. Self invoked function
+5. Object.keys
+6. Get max value in the array
+7. 
