@@ -1,12 +1,6 @@
-// export const usersData = {
-//     id: "Id",
-//     firstName: 'FN',
-//     lastName: 'LN',
-//     age: 'A',
-//     gender: 'G'
-//   };
+export class UserProperty {
 
-  export const TUserData = function(id, firstName, lastName, age, gender) {
+  constructor(id, firstName, lastName, age, gender) {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
@@ -14,5 +8,4 @@
     this.gender = gender;
   }
 
-  ///export default test;
-  
+}

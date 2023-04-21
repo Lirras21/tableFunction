@@ -1,76 +1,17 @@
-import { TUserData } from '../types/userDetails.js'
-
+import { UserProperty } from '../types/userDetails.js';
 export const users = [
-    new TUserData (1, 'Nazar', 'Velichko', 21, 'Male'),
-    new TUserData (2, 'Nazar 2', 'Velichko 2', 212, 'Male 2')
-    // {
-    //     id: 1,
-    //     firstName: 'Nazar',
-    //     lastName: 'Velichko',
-    //     age: 21,
-    //     gender: 'Male'
-    // },
-    // {
-    //     id: 2,
-    //     firstName: 'Mykola',
-    //     lastName: 'Staryi',
-    //     age: 25,
-    //     gender: 'Male'
-    // },
-    // {
-    //     id: 3,
-    //     firstName: 'Petro',
-    //     lastName: 'Shchur',
-    //     age: 28,
-    //     gender: 'Male'
-    // },
-    // {
-    //     id: 4,
-    //     firstName: 'Angelina',
-    //     lastName: 'Moroz',
-    //     age: 45,
-    //     gender: 'Female'
-    // },
-    // {
-    //     id: 5,
-    //     firstName: 'Viktoria',
-    //     lastName: 'Danko',
-    //     age: 27,
-    //     gender: 'Female'
-    // },
-    // {
-    //     id: 6,
-    //     firstName: 'Oleh',
-    //     lastName: 'Chornenkyi',
-    //     age: 20,
-    //     gender: 'Male'
-    // },
-    // {
-    //     id: 7,
-    //     firstName: 'Yura',
-    //     lastName: 'Dudok',
-    //     age: 19,
-    //     gender: 'Male'
-    // },
-    // {
-    //     id: 8,
-    //     firstName: 'Dmytro',
-    //     lastName: 'Popko',
-    //     age: 22,
-    //     gender: 'Male'
-    // },
-    // {
-    //     id: 9,
-    //     firstName: 'Anton',
-    //     lastName: 'Velichko',
-    //     age: 17,
-    //     gender: 'Male'
-    // },
-    // {
-    //     id: 10,
-    //     firstName: 'Alina',
-    //     lastName: 'Shuba',
-    //     age: 17,
-    //     gender: 'Female'
-    // }
+    new UserProperty(1, 'Nazar', 'Velichko', 21, 'male'),
+    new UserProperty(2, 'Anton', 'Velichko', 17, 'male'),
+    new UserProperty(3, 'Yura', 'Dudok', 21, 'male'),
+    new UserProperty(4, 'Dima', 'Popko', 23, 'male'),
+    new UserProperty(5, 'Alina', 'Shuba', 17, 'female'),
+    new UserProperty(6, 'Oleh', 'Chornenkyy', 22, 'male'),
+    new UserProperty(7, 'Vitaliy', 'Fostyak', 26, 'male'),
+    new UserProperty(8, 'Daryna', 'Fostyak', 24, 'female'),
+    new UserProperty(9, 'Igor', 'Klak', 19, 'male'),
+    new UserProperty(10, 'Maxim', 'Lyshak', 21, 'male')
+
 ];
+
+
+
