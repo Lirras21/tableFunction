@@ -1,4 +1,4 @@
-export class UserProperty {
+export class TUser {
 
   constructor(id, firstName, lastName, age, gender) {
     this.id = id;

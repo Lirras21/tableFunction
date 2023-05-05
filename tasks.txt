@@ -4,4 +4,4 @@
 4. Self invoked function
 5. Object.keys
 6. Get max value in the array
-7. 
+7.
