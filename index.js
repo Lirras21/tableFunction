@@ -11,7 +11,6 @@ function formatTable(arr) {
         let age = String(arr[i].age);
         result += `${id.padEnd(10)}\t${arr[i].firstName.padEnd(10)}\t${arr[i].lastName.padEnd(15)}\t${age.padEnd(10)}\t${arr[i].gender.padEnd(10)}\n`
     }
-    console.log(result);
     return result;
 }
 formatTable(users);
